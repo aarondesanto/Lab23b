@@ -1,0 +1,10 @@
+table tr {
+  background-color: #bbb;
+}
+table tr.even,
+table tr:nth-child(even) {
+  background-color: #fff;
+}
+table td {
+  padding: 4px 10px;
+}
