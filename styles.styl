@@ -1,0 +1,14 @@
+bgcolor = #ddd
+trcolor = #aaa
+
+stripe(even = #fff, odd = #bbb)
+  tr
+    background-color odd
+    &.even
+    &:nth-child(even)
+      background-color even
+
+table
+  stripe()
+  td
+    padding 4px 10px
