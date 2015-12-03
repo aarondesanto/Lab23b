@@ -1,3 +1,9 @@
+body {
+  background-color: #dde;
+}
+table {
+  margin: 0 auto;
+}
 table tr {
   background-color: #bbb;
 }

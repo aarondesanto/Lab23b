@@ -1,7 +1,6 @@
 {
   "name": "lab23b",
   "version": "1.0.0",
-  "description": "",
   "main": "app.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
@@ -9,9 +8,22 @@
   "author": "ades",
   "license": "MIT",
   "devDependencies": {
+    "browser-sync": "^2.10.0",
     "gulp": "^3.9.0",
     "gulp-livereload": "^3.8.1",
     "gulp-stylus": "^2.1.0",
     "stylus": "^0.52.4"
-  }
+  },
+  "dependencies": {
+    "gulp-git": "^1.6.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/aarondesanto/Lab23b.git"
+  },
+  "bugs": {
+    "url": "https://github.com/aarondesanto/Lab23b/issues"
+  },
+  "homepage": "https://github.com/aarondesanto/Lab23b#readme",
+  "description": ""
 }

@@ -1,5 +1,9 @@
 bgcolor = #ddd
 trcolor = #aaa
+newcolor = #dde
+
+body
+  background-color newcolor
 
 stripe(even = #fff, odd = #bbb)
   tr
@@ -9,6 +13,7 @@ stripe(even = #fff, odd = #bbb)
       background-color even
 
 table
+  margin 0 auto
   stripe()
   td
     padding 4px 10px
